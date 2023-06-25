@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>INDEX</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <link rel="stylesheet" href="./css/index.scss" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.css" />
+
+<!--   /*swiepr cdn*/ -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+ <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+</head>
+
+<body>
+  <ul id="menu">
+    <li data-menuanchor="firstPage" class="active"><a href="#firstPage">Intro</a></li>
+    <li data-menuanchor="secondPage"><a href="#secondPage">Profile</a></li>
+    <li data-menuanchor="3rdPage"><a href="#3rdPage">Web</a></li>
+    <li data-menuanchor="4rdPage"><a href="#4rdPage">Skill</a></li>
+    <li data-menuanchor="5rdPage"><a href="#5rdPage">Contact</a></li>
+</ul>
+
+
+
+  <div id="fullpage">
+    <div class="section" id="intro">
+      <div class="slide">
+        <div class="container">
+          <section class="left_area">
+            <div class="intro_title">
+              <p>PORT <br/>
+                FOLIO <br/>
+                FRONT <br/>
+                END <bt/>
+              </p>
+            </div>
+            <div class="intro_subtitle">
+              <p>Welcome to my portfolio! <br/>
+                Here you will find a collection <br/>
+                of my projects</p>
+            </div>
+           </section>
+           <section class="right_area">
+            <div class="intro_name">
+              <p>SuJung Kang</p>
+              <span>2023</span>
+            </div>
+           </section>
+          </div><!-- //container -->
+        </div><!-- //slide -->
+    </div><!-- //intro -->
+
+    <div class="section" id="profile">
+      <div class="slide" data-anchor="slide2">
+        <section class="left_area">
+          <div class="profile_title">
+            <h2>About me</h2>
+          </div><!-- //profile_title -->
+      
+          <div class="profiletext_wrap">
+           <ul>
+            <li>
+              <div class="profile_icon">
+                <img src="./image/profile_01.png" alt="프로필01">
+              </div>
+              <div class="profile_txt">
+                <span>이름</span>
+                <p>강수정</p>
+              </div>
+            </li><!-- //이름  -->
+      
+            <li>
+              <div class="profile_icon">
+                <img src="./image/profile_02.png" alt="프로필02">
+              </div>
+              <div class="profile_txt">
+                <span>생년월일</span>
+                <p>98.09.22</p>
+              </div>
+            </li><!-- //생년월일  -->
+      
+            <li>
+              <div class="profile_icon">
+                <img src="./image/profile_03.png" alt="프로필03">
+              </div>
+              <div class="profile_txt">
+                <span>주소지</span>
+                <p>부산광역시 부산진구</p>
+              </div>
+            </li><!-- //주소지  -->
+      
+            <li>
+              <div class="profile_icon">
+                <img src="./image/profile_04.png" alt="프로필04">
+              </div>
+              <div class="profile_txt">
+                <span>연락처</span>
+                <p>010-7270-9349</p>
+              </div>
+            </li><!-- //연락처  -->
+      
+            <li>
+              <div class="profile_icon">
+                <img src="./image/profile_05.png" alt="프로필05">
+              </div>
+              <div class="profile_txt">
+                <span>학력</span>
+                <p>마산대(식품영양학과)<br/>
+                   중퇴(2017.02~2017.12)
+                </p>
+                <p>마산여자고등학교<br/>
+                  졸업(2014.02~2017.02)
+                </p>
+              </div>
+              
+            </li><!-- //학력  -->
+      
+            <li>
+              <div class="profile_icon">
+             <img src="./image/profile_06.png" alt="프로필06">
+              </div>
+              <div class="profile_txt">
+                <span>경력</span>
+              <p>국민연금관리공단<br/>
+                  인턴(2022.04~2022.11)
+              </p>
+              <p>이디야카페 아르바이트
+                (2017.02~2018.06)
+            </p>
+              </div>
+              
+            </li><!-- //경력  -->
+      
+            <li>
+              <div class="profile_icon">
+                <img src="./image/profile_07.png" alt="프로필07">
+              </div>
+              <div class="profile_txt">
+                <span>이메일</span>
+                <p>sujungs98@naver.com</p>
+              </div>
+            </li><!-- //이메일  -->
+
+            <li>
+              <div class="profile_icon">
+              </div>
+              <div class="profile_txt">
+                <span>그 외</span>
+                <p>그린컴퓨터아카데미<br/>
+                    프론트엔드 개발자과정<br/>
+                    수료(2022.12~2023.07 )
+                </p>
+              </div>
+            </li><!-- //그 외  -->  
+           </ul>
+          </div><!-- //profiletext_wrap -->
+      
+          <div class="profile_license">
+              <div class="license_icon">
+                <img src="./image/license.png" alt="라이센스아이콘">
+                <p>license</p>
+              </div>
+            
+      
+              <div class="license_text">
+                <p>컴퓨터활용능력1급</p>
+                <p>운전면허보통2종</p>
+              </div>
+          </div><!-- //profile_license -->
+        </section><!-- //left_area -->
+      
+        <section class="right_area">
+          <div class="profileimg_wrap">
+            <div class="profile_background">
+              <img src="./image/profile_background.png" alt="프로필배경">
+            </div>
+            <div class="profile_img">
+              프로필사진첨부
+            </div>
+          </div><!-- //profileimg_wrap -->
+        </section><!-- //right_area -->
+
+
+
+      </div>
+    </div><!-- //profile -->
+
+    <div class="section" id="web">
+      <div class="slide" data-anchor="slide3"> 
+        <div class="web_maintitle">
+          <h2>Web <br/> SITEHUB</h2>
+        </div>
+        <div class="web_subtitle">
+          <p>Welcome to my front-end portfolio,<br/>
+            showcasing my passion for creating intuitive<br/> 
+            and visually appealing web experiences</p>
+        </div>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="web_sitename">
+                <p>WEBSITENAME</p>
+                <a href=""><img src="./image/web-browser.png" alt="기획서바로가기"></a>
+              </div>
+              <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+              <div class="web_link">
+                <div class="code_link">
+                  <a href="">코드 보기</a>
+                </div>
+                <div class="github_link">
+                  <a href="">Github</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div><!-- //swiper -->
+      </div>
+    </div>
+
+    <div class="section" id="skill">
+      <div class="slide" data-anchor="slide4">
+        <div class="skill_icon">
+          <ul>
+            <li><a href="#skill"><img src="./image/html_icon.png" alt="HTML아이콘"></a></li>
+            <!-- <li><a href=""><img src="./image/Jquery_icon.jpg" alt="JQUERY아이콘"></a></li>
+            <li><a href=""><img src="./image/CSS3_icon.png" alt="CSS3아이콘"></a></li>
+            <li><a href=""><img src="./image/JS_icon.jpg" alt="JAVASCRIPT아이콘"></a></li>
+            <li><a href=""><img src="./image/scss_icon.png" alt="scss아이콘"></a></li>
+            <li><a href=""><img src="./image/Git_icon.png" alt="GIT아이콘"></a></li>
+            <li><a href=""><img src="./image/react_icon.png" alt="GIT아이콘"></a></li>
+            <li><a href=""><img src="./image/figma_icon.png" alt="FIGMA아이콘"></a></li> -->
+          </ul>
+        </div>
+      </div>
+    </div><!-- //skill -->
+
+    <div class="section" id="contact">
+      <div class="slide" data-anchor="slide5">
+        <div class="container">
+          <section class="left_area">
+            <div class="contact_maintitle">
+              <h2>Thank you</h2>
+              <p>지금까지 제 포트폴리오를 봐주셔서 감사합니다.</p>
+            </div>
+            <div class="contact_slogan">
+              <p>Slogan</p>
+            </div>
+      
+            <div class="contact_info">
+              <p>Name:Kang Su Jung</p>
+              <p>Email: sujungs98@naver.com</p>
+              <p>Mobile: 010-7270-9349</p>
+            </div>
+      
+            <div class="contact_github">
+              <a href=""><img src="./image/github_link.png" alt="깃허브연결아이콘"></a>
+            </div>
+          </section>
+          <section class="right_area">
+            <div class="contact_profile">
+              <img src="" alt="">profile
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- //fullPage -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.js"></script>
+
+
+  <script>
+    new fullpage('#fullpage', {
+      autoScrolling: true,
+      scrollHorizontally: true,
+   
+      anchors: ['firstPage', 'secondPage', '3rdPage', '4rdPage', '5rdPage'],
+      menu: '#menu',
+    });
+
+  </script>
+
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    coverflowEffect: {
+      rotate: 50,
+      stretch: 0,
+      depth: 100,
+      modifier: 1,
+      slideShadows: true,
+      slidesPerView: 3
+    },
+    pagination: {
+    el: false, // 페이지네이션 제거
+  },
+  });//Web_swiper
+</script>
+
+
+</body>
+
+</html>
